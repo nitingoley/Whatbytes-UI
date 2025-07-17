@@ -8,9 +8,9 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row gap-8">
           <Sidebar />
           <main className="flex-1">
-            <Suspense fallback={<div className="text-center py-12">Loading products...</div>}>
+            <div className="text-center py-12">Loading products...</div>
               <ProductGrid />
-            </Suspense>
+           
           </main>
         </div>
       </div>

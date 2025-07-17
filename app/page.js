@@ -1,6 +1,5 @@
 import Sidebar from "@/components/Sidebar";
 import ProductGrid from "@/components/ProductGrid";
-import { Suspense } from 'react';
 
 export default function Home() {
   return (
